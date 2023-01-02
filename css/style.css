@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
+
+html{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.5rem;
+
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+    color: black;
+}
+
+.texto-logo{
+    margin-left: 0.5rem;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 2rem; 
+    font-size: 1.5rem; 
+    font-weight:400;
+}
+
+.menu li a{
+    padding:10px 5px ;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover{
+     background-color: #5BC241;
+     color: white;
+}
+
+.menu li a.btn{
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    color: #ffffff;
+    
+
+
+    background: #5BC241;
+    border-radius: 1rem;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+
+
