@@ -2,6 +2,6 @@
 
 ➡️Header responsivo com flex-box⬅️
 
-[<img src="./imgs/header-responsivo.gif">] ()
+<img src="./imgs/header-responsivo.gif">
 
 
